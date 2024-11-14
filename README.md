@@ -12,11 +12,12 @@ Este projeto é uma interface de demonstração para a página de apresentação
 Esta interface foi desenvolvida como parte de um projeto de estudo de HTML, CSS e JavaScript, com foco na criação de componentes dinâmicos e na aplicação de transições visuais. O objetivo é replicar a interatividade típica de uma página de produtos, permitindo ao usuário experimentar diferentes estilos e opções do iPhone.
 
 ### 📁Estrutura de Arquivos
+
 plaintext
 Copiar código
 iphone-13-pro
 │
-├── index.html              # Estrutura básica HTML da página
+├── index.html              # Estrutura básica HTML da página \n
 ├── css
 │   └── styles.css          # Estilos da página e transições de cores
 └── js
