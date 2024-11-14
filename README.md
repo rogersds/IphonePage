@@ -17,9 +17,11 @@ plaintext
 Copiar código
 iphone-13-pro
 │
-├── index.html              # Estrutura básica HTML da página \n
+├── index.html              # Estrutura básica HTML da página 
+
 ├── css
 │   └── styles.css          # Estilos da página e transições de cores
+
 └── js
     └── scripts.js          # Script principal para a lógica de mudança de cor
 └── img                     # Imagens do iPhone 13 Pro em diferentes cores
