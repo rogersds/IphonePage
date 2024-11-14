@@ -13,7 +13,7 @@ Esta interface foi desenvolvida como parte de um projeto de estudo de HTML, CSS 
 
 ### 📁Estrutura de Arquivos
 
-plaintext
+#### plaintext
 Copiar código
 iphone-13-pro
 │
@@ -30,6 +30,30 @@ iphone-13-pro
     ├── iphone_golden.jpg
     ├── iphone_grafite.jpg
     └── iphone_blue.jpg
+
+## 💻 Lógica do JavaScript
+O arquivo scripts.js é responsável por adicionar a interatividade à interface. Abaixo está o código JavaScript e uma explicação detalhada do que cada parte faz:
+
+
+### Explicação da Lógica
+
+Seleção de Elementos:
+O código seleciona todos os botões de cor (#image-picker li) e a imagem principal do produto (#product-image).
+
+Adicionar Event Listeners:
+Para cada botão de cor, um listener de evento click é adicionado, ativando a função de mudança de cor.
+
+Remover Seleção Atual:
+Antes de aplicar uma nova seleção, a classe selected é removida de todos os botões de cor para garantir que apenas um esteja destacado.
+
+Identificação da Cor Selecionada:
+Quando um botão é clicado, seu id é capturado para que a imagem correspondente possa ser carregada.
+
+Aplicar Transição de Imagem:
+A imagem é temporariamente opacificada aplicando a classe changing, criando uma transição suave de cor.
+O atributo src da imagem é alterado para a nova imagem com base no id da cor selecionada.
+Após 200 milissegundos, a classe changing é removida, restaurando a opacidade original.
+
 ## ✨Funcionalidades
 🎨 Mudar de cor: Ao clicar nos círculos de cor abaixo da imagem, a imagem do iPhone muda para o modelo correspondente.
 🔄 Transição suave: Ao selecionar uma nova cor, a imagem do produto é suavemente opacificada para uma transição visual agradável.
