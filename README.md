@@ -1,7 +1,7 @@
 # 📱  iPhone 13 Pro - Interface Interativa de Cores
 Este projeto é uma interface de demonstração para a página de apresentação do iPhone 13 Pro. A interface permite ao usuário selecionar diferentes opções de cores para visualizar o dispositivo em várias variações, simulando a experiência de escolher e personalizar um produto no site oficial da Apple.
 
-📋 ### Tabela de Conteúdos
+###📋 Tabela de Conteúdos
 📖 ### Sobre o Projeto
 📁 ### Estrutura de Arquivos
 ✨ ### Funcionalidades
